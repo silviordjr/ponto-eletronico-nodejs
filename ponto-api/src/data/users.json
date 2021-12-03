@@ -1,0 +1,31 @@
+[
+    {
+        "id":"JOÃOVICTORTEIXEIRADIAS",
+        "nome":"João Victor Teixeira Dias",
+        "email":"jvdias@gmail.com",
+        "cpf":"471.261.990-23",
+        "conhecimento_1":"React"
+    },
+    {
+        "id":"JOSÉCARLOSPEREIRALEITE",
+        "nome": "José Carlos Pereira Leite",
+        "email":"jcleite@outlook.com",
+        "cpf":"279.225.890-00",
+        "conhecimento_1":"React"
+    },
+    {
+        "id":"MATHEUSARAUJOCASTRODESOUZA",
+        "nome": "Matheus Araujo Castro de Souza",
+        "email":"matzin@outlook.com",
+        "cpf":"828.199.680-31",
+        "conhecimento_1":"React"
+    }, 
+    {
+        "id":"SILVIORIBEIRODIASJUNIOR",
+        "nome": "Silvio Ribeiro Dias Junior",
+        "email":"silviordjr@outlook.com",
+        "cpf":"025.640.671-58",
+        "conhecimento_1":"React",
+        "conhecimento_2": "TypeScript"
+    }
+]
