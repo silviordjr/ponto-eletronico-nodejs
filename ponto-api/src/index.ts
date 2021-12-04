@@ -4,6 +4,7 @@ import { AddressInfo } from "net";
 import criarRegistro from './endpoints/criarRegistro';
 import validarRegistro from './endpoints/validarRegistro';
 import pegarRegistros from './endpoints/pegarRegistros';
+import pegarUser from './endpoints/pegarUser';
 
 const app: Express = express();
 
@@ -13,6 +14,7 @@ app.use(cors());
 app.post('/registrar', criarRegistro)
 app.put(`/validar/:id`, validarRegistro)
 app.get('/registros', pegarRegistros)
+app.get(`/registros/:id`, pegarUser)
 
 
 const server = app.listen(process.env.PORT || 3003, () => {
